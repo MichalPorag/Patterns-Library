@@ -1,0 +1,456 @@
+:root {
+  --color: #FFC355;
+  --color-1: #FF8D94;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+}
+
+body {
+  margin: 0;
+  min-height: calc(100vh - 40px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+  grid-auto-rows: minmax(260px, auto);
+  gap: 20px;
+  padding: 20px;
+}
+
+div {
+  border: 5px solid black;
+  padding: 5px 0 0 10px;
+  font-size: 2rem;
+  font-family: 'Potta One', cursive;
+  color: white;
+}
+
+div:nth-child(1) {
+  --color: #a00505;
+  --color-1: #450000;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(at 50% 100%, var(--color-1) 10%, var(--color) 20% 80%, var(--color-1) 90%);
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(2) {
+  --color: #ffdc30;
+  --color-1: #050135;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(from 180deg at 50% 0%, var(--color), var(--color-1), var(--color));
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(11) {
+  --color: #FFC355;
+  --color-1: #FF8D94;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+  
+  background-image: 
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-1) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-1) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-2) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-2) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    );
+  background-size: 
+    50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px;
+  background-position: 
+    0 0, 5px 5px, 10px 10px, 15px 15px, 20px 20px, 25px 25px, 30px 30px;
+}
+
+div:nth-child(12) {
+  --color: #FFC355;
+  --color-1: black;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+  --size: 3%;
+  
+  background-image: 
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color) 30%, 
+      transparent 35%
+    );
+  background-size: 
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px;
+  background-position: 
+    10px 10px,
+    20px 30px,
+    50px 23px,
+    43px 35px,
+    -10px 10px,
+    0 0,
+    5px 5px;
+}
+
+div:nth-child(3) {
+  --color: #00fea094;
+  --color-1: black;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(
+      var(--color), 
+      var(--color-1), 
+      var(--color-2), 
+      var(--color-3), 
+      var(--color-4)
+    );
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(4) {
+  --color: #3e4eff;
+  --color-1: black;
+  
+  background-image: 
+    conic-gradient(
+      from 3.1416rad at 0% 0%, 
+      var(--color) 75%, 
+      var(--color-1), 
+      var(--color)
+    );
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(5) {
+  --color: #000000;
+  --color-1: #ff4c84;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(at 100% 50%, var(--color), var(--color-1));
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(6) {
+  --color: black;
+  --color-1: olive;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #000000;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(at 100% 100%, var(--color) 30% 70%, var(--color-1));
+  background-size: 
+    50px 50px;
+  background-position: 
+    0 0;
+}
+
+div:nth-child(7) {
+  --color: #0051ff8a;
+  --color-1: black;
+  --color-2: #ffb069;
+  --color-3: #ffb069;
+  --color-4: #ffb069;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(
+      at 20% -20%,
+      var(--color), 
+      var(--color-1), 
+      var(--color-2), 
+      var(--color-3), 
+      var(--color-4)
+    );
+  background-size: 
+    50px 50px, 50px 50px;
+  background-position: 
+    0 0, 30px 20px;
+}
+
+div:nth-child(8) {
+  --color: #e66465;
+  --color-1: black;
+
+  background-image: 
+    conic-gradient(
+      at 100% 100%,
+      transparent 75%, 
+      var(--color-1)
+    ),
+    conic-gradient(
+      from 0.25turn at 0% 100%,
+      var(--color-1) 75%, 
+      var(--color)
+    );
+  background-size: 
+    100% 50px, 100% 50px;
+  background-position: 
+    0 0, 0 50px;
+}
+
+div:nth-child(9) {
+  --color: #0051ff8a;
+  --color-1: black;
+  --color-2: #ffb069;
+  --color-3: #ffb069;
+  --color-4: #ffb069;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(
+      at 20% 80%,
+      var(--color), 
+      var(--color-1), 
+      var(--color-2), 
+      var(--color-3), 
+      var(--color-4)
+    ),
+    conic-gradient(
+      at 20% 80%,
+      var(--color), 
+      var(--color-1), 
+      var(--color-2), 
+      transparent, 
+      transparent
+    );
+  background-size: 
+    50px 50px, 50px 50px;
+  background-position: 
+    0 0, 30px 20px;
+}
+
+div:nth-child(10) {
+  --color: #4545458a;
+  --color-1: black;
+  --color-2: #36d7ff;
+  --size: 3%;
+  
+  background-image: 
+    conic-gradient(
+      at 20% 110%,
+      var(--color), 
+      var(--color-1), 
+      var(--color-2)
+    ),
+    conic-gradient(
+      at 20% 100%,
+      var(--color), 
+      var(--color-1), 
+      var(--color-2), 
+      transparent
+    );
+  background-size: 
+    50px 50px, 50px 50px;
+  background-position: 
+    0 0, 30px 20px;
+}
+
+div:nth-child(11) {
+  --color: #FFC355;
+  --color-1: #FF8D94;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+  
+  background-image: 
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-1) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-1) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-2) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-2) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    ),
+    radial-gradient(
+      transparent 45% 50%, 
+      var(--color-3) 50% 55%, 
+      transparent 60% 65%, 
+      var(--color-3) 65% 70%, 
+      transparent 75%
+    );
+  background-size: 
+    50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px;
+  background-position: 
+    0 0, 5px 5px, 10px 10px, 15px 15px, 20px 20px, 25px 25px, 30px 30px;
+}
+
+div:nth-child(12) {
+  --color: #FFC355;
+  --color-1: black;
+  --color-2: #ff4c84;
+  --color-3: #FF8D94;
+  --color-4: #ff4c84;
+  --size: 3%;
+  
+  background-image: 
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color-1) var(--size), 
+      transparent calc(var(--size) + 2%)
+    ),
+    radial-gradient(
+      var(--color) 30%, 
+      transparent 35%
+    );
+  background-size: 
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px,
+    50px 50px;
+  background-position: 
+    10px 10px,
+    20px 30px,
+    50px 23px,
+    43px 35px,
+    -10px 10px,
+    0 0,
+    5px 5px;
+}
